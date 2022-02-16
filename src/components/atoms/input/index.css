@@ -1,0 +1,28 @@
+./*main-form{
+	display: flex;
+	flex-direction: column;
+	 gap: 20px; 
+	width:50%;
+}*/
+.mf-label{
+	font-weight: bold;
+	margin: 20px 0;
+}
+.mf-input{
+	outline: none; 
+	border:1px solid #E9E9E9 ;
+	padding: 15px;
+	width: auto;
+}
+
+.mf-input:focus{
+	border: 3px solid #3E79EF;
+	box-sizing: border-box
+}
+.display-none{
+	display: none;
+}
+.amf-input{
+	border: none!important;
+	
+}
