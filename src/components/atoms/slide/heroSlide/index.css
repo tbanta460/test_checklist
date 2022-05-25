@@ -1,0 +1,53 @@
+.hero-books{
+	margin: auto;
+}
+.hero-books .slide-show-books{
+	display: flex;
+	flex-direction: row;
+	margin: 20px auto 0 auto;
+	width: 80%;
+	flex-wrap: wrap;
+}
+
+.slide-show-hero{
+	width: 100%;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.title-books-genre-hero{
+	font-size: 30px;
+}
+.title-books-genre-hero, .exc-genre-hero{
+	display: block;
+	text-align: center;
+}
+.exc-genre{
+	font-size: 11px;
+}
+.nav-link-hero{
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+.slick-slider{
+	display: grid!important;
+	grid-template-columns: max-content 1fr max-content;
+	align-items: center;
+}
+
+/*Image*/
+.bg-trans{
+	background-color: black;
+	width: 95%;
+	margin: auto;
+}
+.hi-cover{
+	height: 400px;
+	width: 100%;
+	margin: auto;
+}
+.hi-cover:hover{
+	opacity: 0.2;
+	transition-duration: 900ms;
+}

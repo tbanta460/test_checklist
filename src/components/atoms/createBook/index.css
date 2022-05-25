@@ -1,0 +1,16 @@
+.child-element{
+	padding:70px 40px;
+	width: 70px;
+	border:2px solid black;
+	border-radius:10px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.child-element:hover{
+	background-color: rgb(0,0,0, 0.6);
+	cursor: pointer;
+	color:white;
+	transition-duration: 2s;
+	animation-name: lb;
+}

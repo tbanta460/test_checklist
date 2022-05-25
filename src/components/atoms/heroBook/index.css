@@ -1,0 +1,38 @@
+.h-bk{
+    display:flex;
+    height:190px;
+    flex-direction: column;
+    text-align:center;
+}
+
+.h-snp-bk {
+    width: 100%;
+    margin:0 auto;
+}
+.h-snp-bk .txt-ttl{
+    font-size:20px;
+}
+.h-snp-bk .txt-ath{
+    color:gray
+}
+.h-snp-bk .txt-parag{
+    text-align:start;
+}
+.nl{
+    display:inline-block;
+    height:100%;
+    width: max-content;
+    margin:0 auto 20px auto;
+}
+.btn-rd{
+    outline: none;
+    border:none;
+    margin:20px 0 0 0;
+    padding:5px 20px;
+    background-color: dodgerblue;
+    border-radius: 50px;
+    color:white;
+}
+.btn-rd:hover{
+    cursor:pointer;
+}

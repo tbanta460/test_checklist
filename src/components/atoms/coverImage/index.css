@@ -1,0 +1,12 @@
+.cover-image-book .image-book{
+	width: 250px;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius:20px;
+}
+
+.cover-image-book{
+	height:350px;
+}

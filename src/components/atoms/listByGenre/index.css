@@ -1,0 +1,18 @@
+.lbg-gnr{
+    display:flex;
+    justify-content: space-between;
+}
+.lbg-ttl{
+    text-align: start;
+    font-size: 25px;
+    background-color: #E83914;
+    padding: 10px 3px;
+    border-top-right-radius: 100px!important;
+    border-radius: 10px;
+    color: white;
+    margin-bottom:30px;
+}
+.wrp-lbg{
+    display:flex;
+    flex-direction: column;
+}

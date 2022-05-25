@@ -1,0 +1,27 @@
+.inf-gid-chd{
+    display:flex;
+    justify-content: space-between;
+}
+.wrp-gid{
+    position:relative;
+}
+.wrp-gid:hover{
+    cursor:pointer;
+}
+.img-gid{
+    border-radius:15px;
+    width:300px;
+    height:200px;
+}
+.wrp-txt-gid{
+    position:absolute;
+    top:50%;
+    color:white;
+    transform: translateY(-50%);
+    left:0;
+    right:0;
+}
+.ttl-gid, .txt-gid{
+    text-align:center;
+    margin:5px 0;
+}

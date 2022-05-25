@@ -5,16 +5,18 @@ const initState = {
 	},
 	register:{
 		username:"",
+		fullname:"",
 		email:"",
 		password:"",
-	
+		confirmpassword:""
 	},
-	createList: {
+	createBook: {
 		title: "",
 		image:null,
 		sinopsis:"tes",
 		genres:[]
 	},
+	imagepreview: null
 	
 }
 
@@ -36,13 +38,19 @@ export const SetForm = (state = initState, action) => {
 				[action.formType]:action.formValue
 			}
 		}
-		case "SET_FORM_CREATELIST":{
+		case "SET_FORM_CREATEBOOK":{
 			return{
 				...state,
-				createList: {
-					...state.createList,
+				createBook: {
+					...state.createBook,
 					[action.formType]: action.formValue
 				}
+			}
+		}
+		case "SET_IMAGEPREVIEW": {
+			return {
+				...state,
+				imagepreview: action.data
 			}
 		}
 		default:

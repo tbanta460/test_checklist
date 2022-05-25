@@ -1,0 +1,12 @@
+.err{
+	padding:20px;
+	background-color:red;
+	text-align: center;
+	margin: 20px auto;
+	width:70%;
+	border-radius: 10px;
+}
+.txt-err{
+	color:white;
+	font-weight: bold;
+}

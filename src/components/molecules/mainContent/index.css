@@ -1,0 +1,29 @@
+
+.nb-chd-one{
+	display:grid;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	row-gap:15px;
+	grid-template-columns: repeat(4, auto);
+	justify-content: end;
+}
+.nb-s-two{
+	text-align:start;
+}
+.nb-s-one{
+	width:100%;
+}
+.nb{
+	display:flex;
+	justify-content: space-between;
+	column-gap: 50px;
+}
+.part-two-main-content{
+	display: grid;
+	grid-row-gap:150px;
+	text-align:center;
+	margin-bottom:10em;
+}
+.main-content-ppl{
+	padding:10px;
+}

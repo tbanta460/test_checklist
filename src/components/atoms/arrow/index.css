@@ -1,0 +1,26 @@
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.arrow-next {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow-prev {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.bg-arrow{
+  border-radius: 100%;
+  width: max-content;
+  height: max-content;
+  padding: 7px 10px;
+ }
+.bg-arrow:hover{
+  background-color: #72C1F4;
+  transition-duration: 700ms;
+  cursor: pointer;
+}

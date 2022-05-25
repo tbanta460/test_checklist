@@ -1,0 +1,37 @@
+.ct-popup{
+    position:fixed;
+    background-color: rgb(0,0,0, 0.5);
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+.sc-one{
+    padding:10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    margin:auto;
+    background-color:white;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    width:25%;
+}
+
+.btn-popup{
+    border:none;
+    background-color: #3E79EF;
+    padding:10px;
+    border-radius:10px;
+    width:150px;
+    margin:auto;
+    color: white;
+}
+.btn-popup:hover{
+    cursor: pointer;
+}

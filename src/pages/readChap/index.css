@@ -1,0 +1,11 @@
+.read-chapter{
+	width:  50%;
+	margin: auto;
+}
+.read-chapter .title-book{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.paragraf-story p{
+	margin-bottom: 50px;
+}

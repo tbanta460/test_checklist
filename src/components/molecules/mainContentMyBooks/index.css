@@ -1,0 +1,62 @@
+.my-books-profile{
+	margin-bottom: 25px;
+}
+.child-profile{
+	width: auto; 
+	margin: auto;
+	background-color: white;
+	box-shadow: 2px 2px 10px rgb(0,0,0, 0.3);
+	display:grid;
+	grid-template-columns: max-content 2fr ;
+	grid-column-gap: 15px;
+	padding: 30px 30px;
+	border-radius: 10px;
+}
+.picture-profile img{
+	width: 100px;
+	height:100px;
+	border-radius: 100%
+}
+
+.info-user-profile{
+	display:grid;
+	grid-template-columns: auto 1fr;
+	justify-content: center;
+	align-items:center;
+	width:full;
+}
+.iup-part-two{
+	display:grid;
+	grid-row-gap: 20px;
+}
+
+.iup-part-three {
+	display:grid;
+	grid-row-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	width: full;
+	
+}
+.iup-part-three .dkt,.iup-part-three .pkt{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	grid-row-gap: 15px;
+}
+/* Bagian Text */
+
+.iup-part-two .lg-text h4{
+	font-size: 25px;
+	margin-bottom: 5px;
+	
+}
+.iup-part-two .lg-text h4:hover{
+	cursor: pointer;
+}
+.iup-part-two .sml-txt span{
+	font-size: 10px;
+}
+.iup-part-two .sml-txt .tx{
+	font-weight: bold;
+}

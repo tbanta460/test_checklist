@@ -1,14 +1,7 @@
 .dashboard{
 	display: flex;
-	flex-direction: row;
 }
 .main-content{
-	width:90%;
-	/* background-color: orange; */
-}
-.side-bar{
-	height: full;
-	/*position: fixed;*/
-	top: 80px;
-	/* width: 15%; */
+	width:85%;
+	margin:auto;
 }

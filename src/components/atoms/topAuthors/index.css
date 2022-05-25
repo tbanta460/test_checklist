@@ -1,0 +1,22 @@
+.ath-chd img{
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+}
+
+.ct-wtp-ath{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ath-chd{
+    display:flex;
+    flex-direction: column;
+}
+.ath-txt{
+    display:inline-block;
+    font-weight: bold;
+    font-size:20px;
+    text-align:center;
+}

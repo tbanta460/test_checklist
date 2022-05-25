@@ -37,3 +37,18 @@
 	flex-direction: column;
 	gap: 20px;
 }
+
+.inf-pgn{
+	display:flex;
+	flex-direction: column;
+	font-weight: bold;
+	text-align: center;
+	margin-top:20px;
+}
+.inf-pgn div{
+	display:flex;
+	flex-direction: column;
+}
+.inf-pgn span{
+	display:inline-block;
+}

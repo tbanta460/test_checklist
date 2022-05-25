@@ -1,17 +1,15 @@
-import React, { useEffect } from 'react';
-import {useParams, useNavigate} from 'react-router-dom';
-import {getAllData} from '../../config/redux/action/setForm.js';
-import Axios from 'axios';
-
+import React from 'react';
 import './index.css';
-const Dashboard = () => {
-	const params = useParams();
-	const navigate = useNavigate();
 
+import {MainContent} from '../../components'
+const Dashboard = () => {
+	
 	return (
 		<>
 			<div className="dashboard">
-				<h1>Berhasil Login</h1>
+				<div className="main-content">
+					<MainContent />
+				</div>
 			</div>
 		</>
 	)

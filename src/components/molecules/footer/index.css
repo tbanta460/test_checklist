@@ -1,0 +1,83 @@
+.mf{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	color:  rgb(14, 11, 48);
+	background-color: rgb(238, 238, 238);
+}
+/*Bagia pof*/
+.pof{
+	margin: 30px 0 0 0;
+	display:  flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pof .qm{
+	width: max-content;
+	border-bottom: 2px solid white;
+	border-width: 5px;
+	font-size: 25px;
+	padding: 10px;
+	margin: 20px 0;
+}
+.pintasan{
+	display: flex;
+	flex-direction: row;
+	margin: 25px 0 0 0;
+}
+.pintasan li{
+	font-weight: bold;
+	list-style: none;
+	padding: 10px;
+	margin:  10px;
+}
+.pintasan li:hover{
+	cursor: pointer;
+}
+/* Bagian CPT */
+.pof .sm{
+	width: max-content;
+	border-bottom: 2px solid white;
+	border-width: 5px;
+	font-size: 25px;
+	padding: 5px;
+}
+.cpt{
+	display: flex;
+	flex-direction: column;
+}
+.cpt .social-media{
+	display: flex;
+	flex-direction: row;
+}
+.cpt .social-media li{
+	list-style: none;
+	margin: 10px;
+	padding:  10px;
+}
+.cpt .social-media li img{
+	width: 40px;
+	height: 40px;
+}
+
+
+
+/*Bagian PTF*/
+.ptf {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 70%;
+	margin:  0 auto;
+}
+.ptf .lgf{
+	width:  150px;
+	height: 120px;
+	display: inline-block;
+	text-align: center;
+}
+.ptf p {
+	text-align: center;
+	margin: 20px 0;
+	width:  80%;
+}

@@ -1,0 +1,68 @@
+.main-profile{
+	display:flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+.mc-profile{
+	width:80%;
+	margin:auto;
+}
+.mc-profile .txt-inf, .cb .txt-cb{
+	text-align: center;
+	padding: 30px 0;
+}
+.list-mybooks{
+	display:grid;
+	grid-row-gap:50px;
+	justify-content:space-between;
+	padding:20px;
+	grid-row-gap: 50px;
+	flex-wrap: wrap;
+	text-align:center;
+	grid-template-columns: repeat(3, 1fr);
+}
+.mc-profile .cb .box-cb{
+	padding: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border: solid rgb(0,0,0,0.5) 1px;
+	border-radius: 7px;
+}
+.box-cb span{
+	display:inline-block;
+	margin:auto;
+}
+.mc-profile .cb{
+	margin: 20px 0 50px 0 ;
+}
+.mc-profile .cb:hover{
+	cursor: pointer;
+}
+.side-bar{
+	width: 23%;
+}
+.list-books-mp{
+	box-shadow: 2px 2px 10px rgb(0,0,0, 0.3);
+	margin: auto;
+}
+.list-books{
+	display:grid;
+	justify-content: center;
+	grid-row-gap: 10px;
+}
+.part-one-main-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 50px;
+	grid-column-gap: 40px; 
+	width:100%;
+	justify-items: center;
+}
+.nth-book{
+	padding: 30px;
+	margin:auto;
+}
+.nth-book .text-nth{
+	text-align: center;
+}

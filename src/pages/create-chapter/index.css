@@ -1,0 +1,44 @@
+
+.part-one-cp{
+	width: 80%;
+	margin: 50px auto;
+}
+.form-txt{
+	display: flex;
+	flex-direction: column;
+	grid-row-gap: 20px;
+}
+
+.create-text{
+	width: 100%;
+	height:  450px;
+	overflow: scroll;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.create-text::-webkit-scrollbar{
+	display: none;
+}
+.create-text p {
+	margin-bottom: 20px;
+}
+.create-text:focus{
+	outline:  none;
+}
+.actived{
+	color:  gray;
+}
+.fail-sccs{
+	background-color: #72C1F4;
+	text-align: center;
+	border-radius: 8px;
+	padding: 13px;
+	width:80%;
+	margin:20px auto;
+	font-weight: bold;
+	display:none;
+}
+
+.activess{
+	display:inline-block
+}

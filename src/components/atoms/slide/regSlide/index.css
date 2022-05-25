@@ -1,0 +1,59 @@
+.hero-books{
+	margin: auto;
+}
+.hero-books .slide-show-books{
+	display: flex;
+	flex-direction: row;
+	margin: 20px auto 0 auto;
+	width: 80%;
+	flex-wrap: wrap;
+}
+.nm-bk-typ{
+	text-align:start;
+	font-weight: bold;
+	width:max-content;
+	font-size: 30px;
+    margin: 0 0 20px 0;
+}
+.nm-bk-typ::before{
+	content: "";
+    width: 20px;
+    height: 20px;
+    border-left-width: 20px;
+    border-left: 5px solid;
+    border-left-color: #72C1F4;
+	margin-right:20px;
+}
+
+.slide-show{
+	width: auto!important;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.slide-show{
+	width: auto!important;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.slide-show:hover{
+	cursor: pointer;
+	transition-duration: 700ms;
+}
+.title-books-genre, .exc-genre{
+	display: block;
+	text-align: center;
+}
+.exc-genre{
+	font-size: 11px;
+}
+.nav-link{
+	color: black;
+	text-decoration: none;
+}
+.slick-slider{
+	display: grid!important;
+	grid-template-columns: max-content 1fr max-content;
+	align-items: center;
+}

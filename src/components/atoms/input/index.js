@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './index.css';
 
 const Input = ({forId, titleLabel, typeInput, idInput, placeHolder, hide = false, isStyle,...rest}) => {
